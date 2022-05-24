@@ -12,17 +12,12 @@
 </head>
 
 <body data-theme="dark" id="body">
-    <header data-visibility="false">
+    <header data-visibility="false" id="header">
         <button class="theme-toggel-button" id="theme-toggel">
             <div class="button-above"></div>
             <div class="button-below"></div>
         </button>
-        <button class="menu-close-button" data-visibility="true">
-            <span class="iconify" data-icon="emojione-monotone:cross-mark" style="color: black;" data-width="30" data-height="30"></span>
-        </button>
-        <!-- <button>
-            <img src="/Resources/Group 1.svg" alt="">
-        </button> -->
+        <button class="close-button" id="menu-close">close</button>
         <ul class="navbar">
             <li><a href="#" class="navbar-link">shout-out</a></li>
             <li><a href="#" class="navbar-link">my works</a></li>
@@ -30,7 +25,7 @@
         </ul>
     </header>
     <div class="hero-section">
-        <p class="ashusomething">AshuSomething</p> 
+        <p class="ashusomething">AshuSomething <span><button class="menu-button" id="menu-open">menu</button></span></p> 
         <img src="Resources/bangkit-ristant-pmhGVEcHrrI-unsplash.jpg" alt="Desk">
         <p class="hero-content">Need someone to<br>make you a<br>Website?</p>
     </div>
