@@ -32,6 +32,7 @@
     *{
         margin: 0;
         padding: 0;
+        box-sizing: border-box;
     }
 
     header{
@@ -156,7 +157,7 @@
 
     .horizontal-line{
         margin-top: 320px;
-        width: 380px;
+        max-width: 380px;
     }
 
     .social-media-links >a >img{
